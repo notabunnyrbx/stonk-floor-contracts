@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       solc:
-        specifier: 0.8.26
-        version: 0.8.26
+        specifier: 0.8.36
+        version: 0.8.36
 
 packages:
 
@@ -45,9 +45,9 @@ packages:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
 
-  solc@0.8.26:
-    resolution: {integrity: sha512-yiPQNVf5rBFHwN6SIf3TUUvVAFKcQqmSUFeq+fb6pNRCo0ZCgpYOZDi3BVoezCPIAcKrVYd/qXlBLUP9wVrZ9g==}
-    engines: {node: '>=10.0.0'}
+  solc@0.8.36:
+    resolution: {integrity: sha512-cnDhjWo8dC5FxnEwCrWxUsJS7RPsHf+pVUe9Tr/+b15sQ40WCVn4vX4R+tOvN5gRfEgiquvFzfF4VV0kSnknhw==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
 
   tmp@0.0.33:
@@ -70,7 +70,7 @@ snapshots:
 
   semver@5.7.2: {}
 
-  solc@0.8.26:
+  solc@0.8.36:
     dependencies:
       command-exists: 1.2.9
       commander: 8.3.0
