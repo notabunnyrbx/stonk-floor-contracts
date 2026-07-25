@@ -1,0 +1,14 @@
+{
+  "name": "stonk-floor-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "build": "node scripts/compile.js",
+    "test": "node scripts/compile.js"
+  },
+  "devDependencies": {
+    "solc": "0.8.26"
+  }
+}
