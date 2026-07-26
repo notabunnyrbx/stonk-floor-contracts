@@ -27,7 +27,8 @@ pnpm test
 ```
 
 The compiler is pinned to Solidity `0.8.26`, with optimization enabled and 200
-runs. Generated artifacts are written to `artifacts/` and are not committed.
+runs. The transitive `tmp` build helper is overridden to patched version
+`0.2.7`. Generated artifacts are written to `artifacts/` and are not committed.
 
 ## Deployment
 

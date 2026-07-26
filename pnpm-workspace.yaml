@@ -1,0 +1,2 @@
+overrides:
+  "solc@0.8.26>tmp": "0.2.7"
