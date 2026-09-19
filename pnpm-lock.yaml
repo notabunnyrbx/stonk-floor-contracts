@@ -12,8 +12,8 @@ importers:
   .:
     devDependencies:
       solc:
-        specifier: 0.8.26
-        version: 0.8.26
+        specifier: 0.8.37
+        version: 0.8.37
 
 packages:
 
@@ -44,13 +44,13 @@ packages:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
 
-  solc@0.8.26:
-    resolution: {integrity: sha512-yiPQNVf5rBFHwN6SIf3TUUvVAFKcQqmSUFeq+fb6pNRCo0ZCgpYOZDi3BVoezCPIAcKrVYd/qXlBLUP9wVrZ9g==}
-    engines: {node: '>=10.0.0'}
+  solc@0.8.37:
+    resolution: {integrity: sha512-ieUYdPDRGNKMsZpCfi9tY64Q+ASoL8tyhLuvf9cFiqDs+6ijlx8Wn2CRi0N71AlCvRx0V092rlUYu3b3PuxWlA==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
 
-  tmp@0.2.7:
-    resolution: {integrity: sha512-e0votIpp4Uo2AJYSzVHV6xCcawuiez3DzqDAbrTc3YxBkplN6e+dM13ZeIcZnDg/QpSuU2zfZ3rzwY8ukEnaXw==}
+  tmp@0.2.6:
+    resolution: {integrity: sha512-5sJPdPjfI5Kx+qbrDesxkglRBxW//g7hCsqspEjwkewGvBMGIKMOTKzLt1hFVJzyadba3lDUN20O9qhvbQUSTA==}
     engines: {node: '>=14.14'}
 
 snapshots:
@@ -67,7 +67,7 @@ snapshots:
 
   semver@5.7.2: {}
 
-  solc@0.8.26:
+  solc@0.8.37:
     dependencies:
       command-exists: 1.2.9
       commander: 8.3.0
@@ -75,8 +75,8 @@ snapshots:
       js-sha3: 0.8.0
       memorystream: 0.3.1
       semver: 5.7.2
-      tmp: 0.2.7
+      tmp: 0.2.6
     transitivePeerDependencies:
       - debug
 
-  tmp@0.2.7: {}
+  tmp@0.2.6: {}
